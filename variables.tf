@@ -74,5 +74,7 @@ variable "cmek" {
   # Defaulted so the template need not pass it (avoids 'Missing required argument').
   default     = null
 }
-
-
+variable "private_network" {
+  description = "private network"
+  type = string
+}
